@@ -5,7 +5,7 @@
 See: .planning/PROJECT.md (updated 2025-02-05)
 
 **Core value:** Users can quickly find reliable, sourced answers to common DE5 questions without searching multiple platforms.
-**Current focus:** Phase 2 - Content System
+**Current focus:** Phase 1.1 - Set Up Styling (INSERTED)
 
 ## Current Position
 
@@ -61,6 +61,10 @@ Recent decisions affecting current work:
 ### Pending Todos
 
 None yet.
+
+### Roadmap Evolution
+
+- Phase 1.1 inserted after Phase 1: Set up styling (URGENT)
 
 ### Blockers/Concerns
 
