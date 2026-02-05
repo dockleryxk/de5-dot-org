@@ -67,6 +67,12 @@ None yet.
 - [Research]: Phase 7 (Forum Scraping) needs research on IntegraForums.com XenForo configuration
 - [Research]: Check if target forum has RSS feeds or REST API before scraping
 
+### Quick Tasks Completed
+
+| # | Description | Date | Commit | Directory |
+|---|-------------|------|--------|-----------|
+| 001 | Init Claude Code config (CLAUDE.md + .gitignore) | 2026-02-05 | 73649ed | [001-init-claude-code-config](./quick/001-init-claude-code-config/) |
+
 ## Session Continuity
 
 Last session: 2026-02-05
