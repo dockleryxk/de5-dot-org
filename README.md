@@ -33,7 +33,7 @@ This is a static site built with Nuxt and powered by Markdown content -- easy to
 
 ```bash
 # Clone the repository
-git clone https://github.com/richgurney/de5-dot-org.git
+git clone https://github.com/dockleryxk/de5-dot-org.git
 cd de5-dot-org
 
 # Use correct Node version
