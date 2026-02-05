@@ -12,7 +12,7 @@ See: .planning/PROJECT.md (updated 2025-02-05)
 Phase: 1 of 8 (Foundation) — VERIFIED ✓
 Plan: 3 of 3 in current phase
 Status: Phase complete, verified, approved
-Last activity: 2026-02-05 — Phase 1 verified and approved
+Last activity: 2026-02-05 — Completed quick-001 (Claude Code config)
 
 Progress: [##--------] 12.5%
 
@@ -55,6 +55,8 @@ Recent decisions affecting current work:
 - [FND-07]: Conventional Commits enforced via commitlint commit-msg hook
 - [FND-08]: CI workflow uses .nvmrc for Node version (no hardcoded version)
 - [FND-09]: Dependabot groups nuxt ecosystem and dev-tools separately
+- [Q-001]: CLAUDE.md at project root with critical gotchas for Claude Code sessions
+- [Q-001]: .gitignore ignores Claude Code local files, keeps shared config tracked
 
 ### Pending Todos
 
@@ -68,7 +70,7 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-05
-Stopped at: Phase 1 verified and approved — ready for Phase 2
+Stopped at: Completed quick-001 (Claude Code config) — ready for Phase 2
 Resume file: None
 
 ---
