@@ -33,11 +33,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. README includes setup instructions and Claude/GSD attribution
   4. `.env.example` documents all required environment variables with dummy values
   5. No secrets or API keys exist in committed code
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 01-01: TBD
-- [ ] 01-02: TBD
+- [ ] 01-01-PLAN.md — Scaffold Nuxt 4 project and configure core application
+- [ ] 01-02-PLAN.md — Dev tooling and code quality infrastructure
+- [ ] 01-03-PLAN.md — Documentation, licensing, and GitHub infrastructure
 
 ### Phase 2: Content System
 **Goal**: Define content collections and enable manual FAQ curation with proper source metadata
@@ -150,7 +151,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation | 0/TBD | Not started | - |
+| 1. Foundation | 0/3 | Not started | - |
 | 2. Content System | 0/TBD | Not started | - |
 | 3. FAQ Display | 0/TBD | Not started | - |
 | 4. Search | 0/TBD | Not started | - |
@@ -161,4 +162,4 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 ---
 *Roadmap created: 2025-02-05*
-*Last updated: 2025-02-05*
+*Last updated: 2026-02-05*
