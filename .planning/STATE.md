@@ -10,28 +10,28 @@ See: .planning/PROJECT.md (updated 2025-02-05)
 ## Current Position
 
 Phase: 1 of 8 (Foundation)
-Plan: 1 of 3 in current phase
+Plan: 2 of 3 in current phase
 Status: In progress
-Last activity: 2026-02-05 — Completed 01-01-PLAN.md
+Last activity: 2026-02-05 — Completed 01-02-PLAN.md
 
-Progress: [#---------] ~7%
+Progress: [##--------] ~13%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 1
-- Average duration: ~6 minutes
-- Total execution time: ~0.1 hours
+- Total plans completed: 2
+- Average duration: ~5 minutes
+- Total execution time: ~0.15 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 1. Foundation | 1/3 | ~6m | ~6m |
+| 1. Foundation | 2/3 | ~9m | ~4.5m |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (~6m)
-- Trend: N/A (first plan)
+- Last 5 plans: 01-01 (~6m), 01-02 (~3m)
+- Trend: Improving
 
 *Updated after each plan completion*
 
@@ -50,6 +50,9 @@ Recent decisions affecting current work:
 - [FND-02]: Added better-sqlite3 as explicit dependency for Nuxt Content v3
 - [FND-03]: Installed eslint as direct devDependency for @nuxt/eslint peer requirement
 - [FND-04]: robots.txt renamed to _robots.txt by @nuxtjs/robots module
+- [FND-05]: Prettier config: no semicolons, single quotes, trailing commas, 100 char width, LF endings
+- [FND-06]: lint-staged targets: *.{js,ts,mjs,vue} for ESLint+Prettier, *.{json,md,yml,yaml,css} for Prettier only
+- [FND-07]: Conventional Commits enforced via commitlint commit-msg hook
 
 ### Pending Todos
 
@@ -63,7 +66,7 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-05
-Stopped at: Completed 01-01-PLAN.md
+Stopped at: Completed 01-02-PLAN.md
 Resume file: None
 
 ---
