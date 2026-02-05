@@ -1,5 +1,5 @@
 ---
-status: complete
+status: diagnosed
 phase: 01-foundation
 source: [01-01-SUMMARY.md, 01-02-SUMMARY.md, 01-03-SUMMARY.md]
 started: 2026-02-05T21:00:00Z
@@ -65,7 +65,11 @@ skipped: 0
   reason: "User reported: some of the links are broken"
   severity: major
   test: 8
-  root_cause: ""
-  artifacts: []
-  missing: []
-  debug_session: ""
+  root_cause: "Two external URLs in README.md are broken: https://claude.ai/claude-code (403) and https://github.com/Get-Shit-Done/gsd (404)"
+  artifacts:
+    - path: "README.md"
+      issue: "Claude Code link should be https://github.com/anthropics/claude-code, GSD link should be https://github.com/glittercowboy/get-shit-done"
+  missing:
+    - "Fix Claude Code URL to https://github.com/anthropics/claude-code"
+    - "Fix GSD URL to https://github.com/glittercowboy/get-shit-done"
+  debug_session: ".planning/debug/broken-readme-links.md"

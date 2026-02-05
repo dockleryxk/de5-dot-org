@@ -100,7 +100,7 @@ Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for gu
 
 ## Built with Claude Code
 
-This project is built with [Claude Code](https://claude.ai/claude-code), using the [GSD (Get Shit Done)](https://github.com/Get-Shit-Done/gsd) planning and execution workflow. Planning documents, phase execution, and code generation are assisted by Claude.
+This project is built with [Claude Code](https://github.com/anthropics/claude-code), using the [GSD (Get Shit Done)](https://github.com/glittercowboy/get-shit-done) planning and execution workflow. Planning documents, phase execution, and code generation are assisted by Claude.
 
 ## License
 
