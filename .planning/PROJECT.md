@@ -48,11 +48,19 @@ Users can quickly find reliable, sourced answers to common DE5 questions without
 **Project Nature:**
 - Hobby project — budget and simplicity prioritized over features
 - Solo maintainer
+- Open-source on public GitHub repo
+- Built with Claude Code and GSD (Get Shit Done) workflow
 
 **Key Unknowns (for research):**
 - Facebook group data access: API restrictions, scraping feasibility, legal considerations
 - Forum scraping approach for XenForo-based IntegraForums
 - Search vs chat: which is simpler to implement and maintain with Nuxt
+
+**Security (open-source considerations):**
+- No hardcoded secrets or API keys in codebase
+- All configuration via environment variables
+- `.env.example` with dummy values for contributors
+- Scraper credentials never committed
 
 ## Constraints
 
@@ -60,6 +68,8 @@ Users can quickly find reliable, sourced answers to common DE5 questions without
 - **Complexity**: Simple to maintain as a solo hobby project
 - **Legal**: Must respect data source terms of service; prefer partnerships with admins where possible
 - **Tech stack**: Nuxt Content preferred unless research suggests otherwise
+- **License**: GPL-3.0 — derivative works must also be open-source
+- **Security**: No secrets in code; environment variables for all configuration
 
 ## Key Decisions
 
@@ -69,6 +79,8 @@ Users can quickly find reliable, sourced answers to common DE5 questions without
 | Nuxt Content | User preference, good for content-heavy sites | — Pending |
 | Search OR chat, not both | Ship simpler option first, add other later if needed | — Pending |
 | Manual cover photos | No traffic yet; automate engagement features when there's an audience | — Pending |
+| Open-source (GPL-3.0) | Community benefit; derivative works must share alike | — Pending |
+| Claude/GSD attribution | Transparency about tooling used to build project | — Pending |
 
 ---
 *Last updated: 2025-02-05 after initialization*
