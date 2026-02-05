@@ -1,0 +1,8 @@
+.nuxt
+.output
+dist
+node_modules
+*.min.*
+CHANGELOG.md
+yarn.lock
+.planning/
