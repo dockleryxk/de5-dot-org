@@ -92,29 +92,29 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| CONT-01 | TBD | Pending |
-| CONT-02 | TBD | Pending |
-| CONT-03 | TBD | Pending |
-| CONT-04 | TBD | Pending |
-| SRCH-01 | TBD | Pending |
-| SRCH-02 | TBD | Pending |
-| SRCH-03 | TBD | Pending |
-| DATA-01 | TBD | Pending |
-| DATA-02 | TBD | Pending |
-| DATA-03 | TBD | Pending |
-| ANLY-01 | TBD | Pending |
-| ANLY-02 | TBD | Pending |
-| ANLY-03 | TBD | Pending |
-| INFR-01 | TBD | Pending |
-| INFR-02 | TBD | Pending |
-| INFR-03 | TBD | Pending |
-| INFR-04 | TBD | Pending |
+| INFR-01 | Phase 1: Foundation | Pending |
+| INFR-02 | Phase 1: Foundation | Pending |
+| INFR-03 | Phase 1: Foundation | Pending |
+| INFR-04 | Phase 1: Foundation | Pending |
+| DATA-01 | Phase 2: Content System | Pending |
+| DATA-02 | Phase 2: Content System | Pending |
+| CONT-02 | Phase 2: Content System | Pending |
+| CONT-03 | Phase 2: Content System | Pending |
+| CONT-01 | Phase 3: FAQ Display | Pending |
+| CONT-04 | Phase 3: FAQ Display | Pending |
+| SRCH-01 | Phase 4: Search | Pending |
+| SRCH-02 | Phase 5: Browse & Navigation | Pending |
+| SRCH-03 | Phase 5: Browse & Navigation | Pending |
+| ANLY-01 | Phase 6: Analytics | Pending |
+| ANLY-03 | Phase 6: Analytics | Pending |
+| DATA-03 | Phase 7: Forum Scraping | Pending |
+| ANLY-02 | Phase 8: Visual Polish | Pending |
 
 **Coverage:**
 - v1 requirements: 17 total
-- Mapped to phases: 0
-- Unmapped: 17 ⚠️
+- Mapped to phases: 17
+- Unmapped: 0
 
 ---
 *Requirements defined: 2025-02-05*
-*Last updated: 2025-02-05 after initial definition*
+*Last updated: 2025-02-05 after roadmap creation*
