@@ -1,0 +1,24 @@
+version: 2
+updates:
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+    groups:
+      nuxt:
+        patterns:
+          - 'nuxt*'
+          - '@nuxt/*'
+          - '@nuxtjs/*'
+      dev-tools:
+        patterns:
+          - 'eslint*'
+          - 'prettier*'
+          - 'husky'
+          - 'lint-staged'
+          - '@commitlint/*'
+
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
