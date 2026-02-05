@@ -1,5 +1,5 @@
 ---
-status: investigating
+status: resolved
 trigger: "Investigate the broken links in the README.md of this Nuxt project."
 created: 2026-02-05T00:00:00Z
 updated: 2026-02-05T00:00:00Z
