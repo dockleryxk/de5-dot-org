@@ -2,11 +2,7 @@
 // Foundation configuration for DE5.org
 // Module order: @nuxtjs/seo MUST come before @nuxt/content
 export default defineNuxtConfig({
-  modules: [
-    '@nuxtjs/seo',
-    '@nuxt/content',
-    '@nuxt/eslint',
-  ],
+  modules: ['@nuxtjs/seo', '@nuxt/content', '@nuxt/eslint'],
 
   // Site identity for SEO modules
   site: {
