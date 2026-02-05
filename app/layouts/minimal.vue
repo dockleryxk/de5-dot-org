@@ -1,4 +1,5 @@
 <template lang="pug">
-NuxtLayout
-  NuxtPage
+div
+  main
+    slot
 </template>
