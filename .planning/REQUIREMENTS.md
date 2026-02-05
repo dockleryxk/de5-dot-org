@@ -34,10 +34,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Infrastructure & Open-Source
 
-- [ ] **INFR-01**: All secrets and configuration use environment variables (no hardcoded values)
-- [ ] **INFR-02**: Repository includes `.env.example` with documented dummy values
-- [ ] **INFR-03**: Repository includes GPL-3.0 LICENSE file
-- [ ] **INFR-04**: README includes setup instructions and attribution to Claude Code and GSD
+- [x] **INFR-01**: All secrets and configuration use environment variables (no hardcoded values)
+- [x] **INFR-02**: Repository includes `.env.example` with documented dummy values
+- [x] **INFR-03**: Repository includes GPL-3.0 LICENSE file
+- [x] **INFR-04**: README includes setup instructions and attribution to Claude Code and GSD
 
 ## v2 Requirements
 
@@ -92,10 +92,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| INFR-01 | Phase 1: Foundation | Pending |
-| INFR-02 | Phase 1: Foundation | Pending |
-| INFR-03 | Phase 1: Foundation | Pending |
-| INFR-04 | Phase 1: Foundation | Pending |
+| INFR-01 | Phase 1: Foundation | Complete |
+| INFR-02 | Phase 1: Foundation | Complete |
+| INFR-03 | Phase 1: Foundation | Complete |
+| INFR-04 | Phase 1: Foundation | Complete |
 | DATA-01 | Phase 2: Content System | Pending |
 | DATA-02 | Phase 2: Content System | Pending |
 | CONT-02 | Phase 2: Content System | Pending |
@@ -117,4 +117,4 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 ---
 *Requirements defined: 2025-02-05*
-*Last updated: 2025-02-05 after roadmap creation*
+*Last updated: 2026-02-05 after Phase 1 completion*
