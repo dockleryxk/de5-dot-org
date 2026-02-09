@@ -25,6 +25,7 @@ These are hard-won lessons. Do not ignore them.
 - **better-sqlite3** must remain as an explicit dependency in package.json. Nuxt Content v3 uses it for its SQLite adapter. Removing it breaks content queries.
 - **eslint** must be a direct devDependency (peer dep of @nuxt/eslint). Do not remove it even though @nuxt/eslint exists.
 - **Pug support:** Only the `pug` package is needed (no pug-plain-loader -- Vite handles it natively).
+- **Frontmatter dates must include time component:** Date-only strings (e.g., `'2026-02-09'`) are parsed as UTC midnight by `new Date()`, displaying a day behind in US timezones. Always include a time component (e.g., `'2025-08-15T15:45:00'`). Use best-effort actual times; approximate is fine.
 
 ## Code Style
 
