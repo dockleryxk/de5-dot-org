@@ -5,21 +5,21 @@
 See: .planning/PROJECT.md (updated 2025-02-05)
 
 **Core value:** Users can quickly find reliable, sourced answers to common DE5 questions without searching multiple platforms.
-**Current focus:** Phase 2 - Content System (in progress)
+**Current focus:** Phase 2 - Content System (complete)
 
 ## Current Position
 
-Phase: 2 of 8 (Content System) — IN PROGRESS
-Plan: 1 of 2 in current phase (Plan 01 complete)
-Status: Executing phase plans
-Last activity: 2026-02-09 — Plan 02-01 complete (FAQ schema + sample content)
+Phase: 2 of 8 (Content System) — COMPLETE
+Plan: 2 of 2 in current phase (all plans complete)
+Status: Phase complete — ready for Phase 3
+Last activity: 2026-02-09 — Plan 02-02 complete (FAQ detail page)
 
 Progress: [####------] 30%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 6
+- Total plans completed: 7
 - Average duration: ~4 minutes
 - Total execution time: ~0.4 hours
 
@@ -29,10 +29,10 @@ Progress: [####------] 30%
 |-------|-------|-------|----------|
 | 1. Foundation | 3/3 | ~13m | ~4.3m |
 | 1.1 Set Up Styling | 2/2 | ~9m | ~4.5m |
-| 2. Content System | 1/2 | ~4m | ~4m |
+| 2. Content System | 2/2 | ~7m | ~3.5m |
 
 **Recent Trend:**
-- Last 5 plans: 01-03 (~4m), 1.1-01 (~3m), 1.1-02 (~6m), 02-01 (~4m)
+- Last 5 plans: 1.1-01 (~3m), 1.1-02 (~6m), 02-01 (~4m), 02-02 (~3m)
 - Trend: Stable/improving
 
 *Updated after each plan completion*
@@ -69,6 +69,8 @@ Recent decisions affecting current work:
 - [02-01]: zod v3 (not v4) required for Nuxt Content v3 compatibility -- v4 causes toJSONSchema errors
 - [02-01]: All FAQ source metadata fields required (no optional) for transparency
 - [02-01]: Dates stored as z.string() not z.date() to avoid YAML parsing issues
+- [02-02]: Inline date formatting and source attribution (no extracted components) -- simple enough for single page
+- [02-02]: Intl.DateTimeFormat for locale-aware date display (no external date library needed)
 
 ### Pending Todos
 
@@ -93,8 +95,8 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-09
-Stopped at: Completed 02-01-PLAN.md (FAQ schema + sample content)
-Resume file: .planning/phases/02-content-system/02-01-SUMMARY.md
+Stopped at: Completed 02-02-PLAN.md (FAQ detail page) -- Phase 2 complete
+Resume file: .planning/phases/02-content-system/02-02-SUMMARY.md
 
 ---
 *State initialized: 2025-02-05*
