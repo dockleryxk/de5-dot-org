@@ -1,5 +1,5 @@
 ---
-status: complete
+status: diagnosed
 phase: 02-content-system
 source: [02-01-SUMMARY.md, 02-02-SUMMARY.md]
 started: 2026-02-09T20:15:00Z
@@ -53,7 +53,14 @@ skipped: 0
   reason: "User reported: the dates are wrong due to time zone - they are shown as a day behind what is in the markdown files"
   severity: major
   test: 2
-  root_cause: ""
-  artifacts: []
+  root_cause: "new Date('2026-02-09') parses date-only strings as UTC midnight; US timezones display previous day"
+  artifacts:
+    - path: "content/faqs/engine/oil-type-recommendation.md"
+      issue: "Date strings missing T00:00:00 suffix"
+    - path: "content/faqs/engine/break-in-period.md"
+      issue: "Date strings missing T00:00:00 suffix"
+    - path: "content/faqs/general/warranty-coverage.md"
+      issue: "Date strings missing T00:00:00 suffix"
   missing: []
   debug_session: ""
+  resolution: "Fixed in 16a02a6 — added T00:00:00 suffix to all frontmatter date strings"
