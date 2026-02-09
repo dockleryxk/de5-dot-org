@@ -68,11 +68,11 @@ Plans:
   2. Each content file stores source URL, original author, and original post date in frontmatter
   3. Content displays "Last updated" date visible to users
   4. Source attribution renders as clickable link to original post
-**Plans**: TBD
+**Plans**: 2 plans
 
 Plans:
-- [ ] 02-01: TBD
-- [ ] 02-02: TBD
+- [ ] 02-01-PLAN.md — Harden FAQ schema (zod import, required source fields) and create sample content
+- [ ] 02-02-PLAN.md — FAQ page route with content rendering, source attribution, and freshness display
 
 ### Phase 3: FAQ Display
 **Goal**: Users can view curated FAQ content on mobile-responsive pages
