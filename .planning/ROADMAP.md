@@ -14,7 +14,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation** - Open-source project setup with Nuxt Content v3
 - [x] **Phase 1.1: Set Up Styling** - (INSERTED) Styling infrastructure
-- [ ] **Phase 2: Content System** - Content collections, schema, and manual curation workflow
+- [x] **Phase 2: Content System** - Content collections, schema, and manual curation workflow
 - [ ] **Phase 3: FAQ Display** - Mobile-responsive FAQ pages with source attribution
 - [ ] **Phase 4: Search** - Client-side full-text search with MiniSearch
 - [ ] **Phase 5: Browse & Navigation** - Category browsing and shareable permalinks
@@ -71,8 +71,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 02-01-PLAN.md — Harden FAQ schema (fix zod import, require source fields, add lastUpdated) and create 3 sample FAQ files
-- [ ] 02-02-PLAN.md — Catch-all FAQ page route with ContentRenderer, source attribution link, and freshness date display
+- [x] 02-01-PLAN.md — Harden FAQ schema (fix zod import, require source fields, add lastUpdated) and create 3 sample FAQ files
+- [x] 02-02-PLAN.md — Catch-all FAQ page route with ContentRenderer, source attribution link, and freshness date display
 
 ### Phase 3: FAQ Display
 **Goal**: Users can view curated FAQ content on mobile-responsive pages
@@ -172,7 +172,7 @@ Phases execute in numeric order: 1 -> 1.1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 |-------|----------------|--------|-----------|
 | 1. Foundation | 3/3 | Complete | 2026-02-05 |
 | 1.1 Set Up Styling | 2/2 | Complete | 2026-02-09 |
-| 2. Content System | 0/TBD | Not started | - |
+| 2. Content System | 2/2 | Complete | 2026-02-09 |
 | 3. FAQ Display | 0/TBD | Not started | - |
 | 4. Search | 0/TBD | Not started | - |
 | 5. Browse & Navigation | 0/TBD | Not started | - |
