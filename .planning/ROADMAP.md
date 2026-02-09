@@ -42,15 +42,22 @@ Plans:
 - [x] 01-03-PLAN.md — Documentation, licensing, and GitHub infrastructure
 
 ### Phase 1.1: Set Up Styling (INSERTED)
-**Goal**: [Urgent work - to be planned]
+**Goal**: Establish styling infrastructure (Bulma SCSS, design tokens, dark mode, Inter font, Lucide icons, responsive layout shell) for all future UI phases
 **Depends on**: Phase 1
-**Requirements**: TBD
+**Requirements**: None (inserted infrastructure phase)
 **Success Criteria** (what must be TRUE):
-  TBD (run /gsd:plan-phase 1.1 to break down)
-**Plans**: TBD
+  1. Bulma CSS classes work in Vue templates (navbar, content, columns, box, etc.)
+  2. Dark mode toggles via sun/moon icon in navbar, persists across refresh
+  3. Dark mode uses warm neutral backgrounds (#171717), not blue-tinted
+  4. Inter font renders from self-hosted source (no external CDN requests)
+  5. Responsive layout: navbar collapses to hamburger on mobile, content stacks
+  6. SCSS design tokens ($type-s-red, spacing, shadows, transitions) available in Vue SFC styles
+  7. Lucide icon components auto-import in templates
+**Plans**: 2 plans
 
 Plans:
-- [ ] 1.1-01: TBD
+- [ ] 1.1-01-PLAN.md — Styling infrastructure: packages, config, SCSS architecture
+- [ ] 1.1-02-PLAN.md — Components, layout shell, and visual verification
 
 ### Phase 2: Content System
 **Goal**: Define content collections and enable manual FAQ curation with proper source metadata
@@ -164,7 +171,7 @@ Phases execute in numeric order: 1 -> 1.1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 3/3 | Complete | 2026-02-05 |
-| 1.1 Set Up Styling | 0/TBD | Not started | - |
+| 1.1 Set Up Styling | 0/2 | Not started | - |
 | 2. Content System | 0/TBD | Not started | - |
 | 3. FAQ Display | 0/TBD | Not started | - |
 | 4. Search | 0/TBD | Not started | - |
@@ -175,4 +182,4 @@ Phases execute in numeric order: 1 -> 1.1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 ---
 *Roadmap created: 2025-02-05*
-*Last updated: 2026-02-05*
+*Last updated: 2026-02-09*
