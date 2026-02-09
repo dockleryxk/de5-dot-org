@@ -60,7 +60,7 @@ Recent decisions affecting current work:
 
 ### Pending Todos
 
-None yet.
+- [ ] Audit imported Inter font weights (area: ui) — check if all 4 weights (400/500/600/700) are actually used after Phase 1.1
 
 ### Roadmap Evolution
 
