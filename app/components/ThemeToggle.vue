@@ -1,13 +1,16 @@
 <template lang="pug">
 //- Dark mode toggle button
+//- ClientOnly prevents hydration mismatch: server has no localStorage so colorMode
+//- value differs between SSR and client, causing sun/moon icon to mismatch
 button.theme-toggle(
   @click="toggle"
   :aria-label="isDark ? 'Switch to light mode' : 'Switch to dark mode'"
   type="button"
 )
-  //- Sun icon in dark mode (click to go light), moon icon in light mode (click to go dark)
-  LucideSun(v-if="isDark" :size="20")
-  LucideMoon(v-else :size="20")
+  ClientOnly
+    //- Sun icon in dark mode (click to go light), moon icon in light mode (click to go dark)
+    LucideSun(v-if="isDark" :size="20")
+    LucideMoon(v-else :size="20")
 </template>
 
 <script setup lang="ts">
