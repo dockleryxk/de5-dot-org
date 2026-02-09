@@ -83,11 +83,12 @@ Plans:
   2. User can view individual FAQ with full answer and source attribution
   3. FAQ pages render correctly on mobile devices (viewport 375px to 768px)
   4. FAQ pages render correctly on desktop (viewport 1024px+)
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 03-01: TBD
-- [ ] 03-02: TBD
+- [ ] 03-01-PLAN.md — Schema evolution (multi-answer), navbar extraction, homepage CTA
+- [ ] 03-02-PLAN.md — FAQ listing page and detail page overhaul (breadcrumbs, multi-answer, SEO)
+- [ ] 03-03-PLAN.md — Terms/disclaimer page and FAQ-specific 404 handling
 
 ### Phase 4: Search
 **Goal**: Users can find FAQs and content using fast client-side search
@@ -173,7 +174,7 @@ Phases execute in numeric order: 1 -> 1.1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 1. Foundation | 3/3 | Complete | 2026-02-05 |
 | 1.1 Set Up Styling | 2/2 | Complete | 2026-02-09 |
 | 2. Content System | 2/2 | Complete | 2026-02-09 |
-| 3. FAQ Display | 0/TBD | Not started | - |
+| 3. FAQ Display | 0/3 | Not started | - |
 | 4. Search | 0/TBD | Not started | - |
 | 5. Browse & Navigation | 0/TBD | Not started | - |
 | 6. Analytics | 0/TBD | Not started | - |
