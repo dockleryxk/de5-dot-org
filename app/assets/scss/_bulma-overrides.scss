@@ -1,0 +1,18 @@
+// app/assets/scss/_bulma-overrides.scss
+// Override Bulma defaults, then import full Bulma framework
+// Source: https://bulma.io/documentation/customize/with-sass/
+
+@use './variables' as vars;
+
+// Override Bulma's Sass variables BEFORE it compiles
+// All overrides must be in this single @use statement
+@use 'bulma/sass' with (
+  $primary: vars.$type-s-red,
+  $family-primary: vars.$font-family-primary,
+  $radius: vars.$radius-default,
+  $radius-small: 0.25rem,
+  $radius-large: vars.$radius-lg,
+  $scheme-h: 0,
+  // Warm neutral hue (default is 221 = blue)
+  $scheme-s: 0% // Zero saturation for pure neutrals
+);

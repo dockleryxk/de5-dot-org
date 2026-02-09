@@ -23,16 +23,20 @@
       "eslint --fix",
       "prettier --write"
     ],
-    "*.{json,md,yml,yaml,css}": [
+    "*.{json,md,yml,yaml,css,scss}": [
       "prettier --write"
     ]
   },
   "dependencies": {
     "@nuxt/content": "3.11.2",
     "@nuxt/eslint": "1.13.0",
+    "@nuxt/fonts": "^0.13.0",
+    "@nuxtjs/color-mode": "^4.0.0",
     "@nuxtjs/seo": "3.4.0",
     "better-sqlite3": "^12.6.2",
+    "bulma": "1.0.4",
     "nuxt": "^4.3.0",
+    "nuxt-lucide-icons": "^2.0.0",
     "vue": "^3.5.27",
     "vue-router": "^4.6.4"
   },
@@ -45,6 +49,7 @@
     "husky": "^9.1.7",
     "lint-staged": "^16.2.7",
     "prettier": "^3.8.1",
-    "pug": "^3.0.3"
+    "pug": "^3.0.3",
+    "sass": "^1.97.3"
   }
 }
