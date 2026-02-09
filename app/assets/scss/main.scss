@@ -1,0 +1,12 @@
+// app/assets/scss/main.scss
+// SCSS entry point for DE5.org
+// Loads Bulma (with overrides) first, then custom styles
+
+// Bulma framework with variable overrides
+@use './bulma-overrides';
+
+// Global base styles (links, images, code blocks, tap targets)
+@use './base';
+
+// Dark mode warm neutral overrides
+@use './dark-mode';

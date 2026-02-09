@@ -1,0 +1,34 @@
+// app/assets/scss/_dark-mode.scss
+// Override Bulma dark theme for warm neutral backgrounds
+// Default Bulma dark: $scheme-h: 221 (blue), $scheme-s: 14%
+// Target: #171717 = hsl(0, 0%, 9%), #262626 = hsl(0, 0%, 15%)
+
+@use './variables' as vars;
+
+// Dark theme warm neutral overrides
+// @nuxtjs/color-mode sets data-theme="dark" on <html> (via dataValue: 'theme')
+// Bulma reads [data-theme=dark] and inverts its CSS variables
+[data-theme='dark'] {
+  // Zero hue/saturation for warm neutral (no blue undertone)
+  --bulma-scheme-h: 0;
+  --bulma-scheme-s: 0%;
+
+  // Custom lightness values for warm neutral palette
+  --bulma-scheme-main-l: 9%; // #171717 (page background)
+  --bulma-scheme-main-bis-l: 12%; // slightly lighter surface
+  --bulma-scheme-main-ter-l: 15%; // #262626 equivalent (card/elevated surfaces)
+  --bulma-background-l: 15%; // #262626 for general backgrounds
+}
+
+// System preference fallback (for users who haven't toggled manually)
+// :not([data-theme='light']) ensures manual light override is respected
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bulma-scheme-h: 0;
+    --bulma-scheme-s: 0%;
+    --bulma-scheme-main-l: 9%;
+    --bulma-scheme-main-bis-l: 12%;
+    --bulma-scheme-main-ter-l: 15%;
+    --bulma-background-l: 15%;
+  }
+}

@@ -1,0 +1,54 @@
+// app/assets/scss/_base.scss
+// Global base styles on top of Bulma's reset
+
+@use './variables' as vars;
+
+// -- Link styling: accent color, no underline, underline on hover
+a:not(.button):not(.navbar-item):not(.tag) {
+  color: var(--bulma-primary);
+  text-decoration: none;
+  transition:
+    color vars.$transition-fast,
+    text-decoration-color vars.$transition-fast;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+// -- Responsive images: constrain to container
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// -- Code blocks: basic monospace styling (no syntax highlighting per user decision)
+pre,
+code {
+  font-family: 'SF Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+}
+
+pre {
+  padding: vars.$spacing-md;
+  border-radius: vars.$radius-default;
+  overflow-x: auto;
+}
+
+// -- Touch-friendly tap targets (44px minimum per WCAG)
+button,
+.button,
+[role='button'] {
+  min-height: 44px;
+}
+
+// -- Fixed navbar body offset (Bulma .is-fixed-top needs body padding)
+body {
+  padding-top: 3.25rem;
+}
+
+// -- Smooth color transitions for theme changes (selective, not global *)
+body {
+  transition:
+    background-color vars.$transition-base,
+    color vars.$transition-base;
+}
