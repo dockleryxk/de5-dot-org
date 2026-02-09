@@ -61,6 +61,7 @@ Recent decisions affecting current work:
 ### Pending Todos
 
 - [ ] Audit imported Inter font weights (area: ui) — check if all 4 weights (400/500/600/700) are actually used after Phase 1.1
+- [ ] Investigate PurgeCSS without Nuxt module (area: ui) — use @fullhuman/postcss-purgecss directly instead of nuxt-purgecss
 
 ### Roadmap Evolution
 
