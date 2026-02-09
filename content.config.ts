@@ -1,7 +1,8 @@
 // content.config.ts
 // Nuxt Content v3 collections configuration
 // Defines FAQ collection with typed frontmatter and SEO integration
-import { defineCollection, defineContentConfig, z } from '@nuxt/content'
+import { defineCollection, defineContentConfig } from '@nuxt/content'
+import { z } from 'zod'
 import { asSeoCollection } from '@nuxtjs/seo/content'
 
 export default defineContentConfig({
@@ -12,11 +13,17 @@ export default defineContentConfig({
         type: 'page',
         source: 'faqs/**/*.md',
         schema: z.object({
+          // FAQ display field
           question: z.string(),
+          // Category for filtering (matches directory structure)
           category: z.string(),
-          sourceUrl: z.string().optional(),
-          sourceAuthor: z.string().optional(),
-          sourceDate: z.string().optional(),
+          // Source attribution (required for transparency)
+          sourceUrl: z.string(),
+          sourceAuthor: z.string(),
+          // Dates stored as ISO strings (z.string() not z.date() -- avoids YAML parsing issues)
+          sourceDate: z.string(),
+          // Freshness tracking (manual -- git dates unreliable in SSG)
+          lastUpdated: z.string(),
         }),
       }),
     ),
