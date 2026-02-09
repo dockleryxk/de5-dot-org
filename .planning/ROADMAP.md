@@ -71,8 +71,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 02-01-PLAN.md — Harden FAQ schema (zod import, required source fields) and create sample content
-- [ ] 02-02-PLAN.md — FAQ page route with content rendering, source attribution, and freshness display
+- [ ] 02-01-PLAN.md — Harden FAQ schema (fix zod import, require source fields, add lastUpdated) and create 3 sample FAQ files
+- [ ] 02-02-PLAN.md — Catch-all FAQ page route with ContentRenderer, source attribution link, and freshness date display
 
 ### Phase 3: FAQ Display
 **Goal**: Users can view curated FAQ content on mobile-responsive pages
