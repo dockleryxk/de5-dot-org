@@ -13,7 +13,7 @@ This roadmap transforms DE5.org from concept to a functional community knowledge
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation** - Open-source project setup with Nuxt Content v3
-- [ ] **Phase 1.1: Set Up Styling** - (INSERTED) Styling infrastructure
+- [x] **Phase 1.1: Set Up Styling** - (INSERTED) Styling infrastructure
 - [ ] **Phase 2: Content System** - Content collections, schema, and manual curation workflow
 - [ ] **Phase 3: FAQ Display** - Mobile-responsive FAQ pages with source attribution
 - [ ] **Phase 4: Search** - Client-side full-text search with MiniSearch
@@ -56,8 +56,8 @@ Plans:
 **Plans**: 2 plans
 
 Plans:
-- [ ] 1.1-01-PLAN.md — Styling infrastructure: packages, config, SCSS architecture
-- [ ] 1.1-02-PLAN.md — Components, layout shell, and visual verification
+- [x] 1.1-01-PLAN.md — Styling infrastructure: packages, config, SCSS architecture
+- [x] 1.1-02-PLAN.md — Components, layout shell, and visual verification
 
 ### Phase 2: Content System
 **Goal**: Define content collections and enable manual FAQ curation with proper source metadata
@@ -171,7 +171,7 @@ Phases execute in numeric order: 1 -> 1.1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation | 3/3 | Complete | 2026-02-05 |
-| 1.1 Set Up Styling | 0/2 | Not started | - |
+| 1.1 Set Up Styling | 2/2 | Complete | 2026-02-09 |
 | 2. Content System | 0/TBD | Not started | - |
 | 3. FAQ Display | 0/TBD | Not started | - |
 | 4. Search | 0/TBD | Not started | - |
