@@ -24,6 +24,17 @@ export default defineContentConfig({
           sourceDate: z.string(),
           // Freshness tracking (manual -- git dates unreliable in SSG)
           lastUpdated: z.string(),
+          // Multi-answer support: array of per-answer source attributions
+          // Optional so existing single-answer FAQs still validate
+          answers: z
+            .array(
+              z.object({
+                sourceUrl: z.string(),
+                sourceAuthor: z.string(),
+                sourceDate: z.string(),
+              }),
+            )
+            .optional(),
         }),
       }),
     ),

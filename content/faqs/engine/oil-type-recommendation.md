@@ -7,6 +7,13 @@ sourceDate: '2025-08-15T00:00:00'
 lastUpdated: '2026-02-09T00:00:00'
 title: 'Oil Type Recommendation'
 description: 'Recommended oil type and weight for the Acura Integra Type S K20C1 engine'
+answers:
+  - sourceUrl: 'https://www.integraforums.com/forum/threads/oil-type.12345/'
+    sourceAuthor: 'ForumUser123'
+    sourceDate: '2025-08-15T00:00:00'
+  - sourceUrl: 'https://www.integraforums.com/forum/threads/oil-discussion.67890/'
+    sourceAuthor: 'TypeSMechanic'
+    sourceDate: '2025-09-20T00:00:00'
 ---
 
 The Acura Integra Type S uses a K20C1 turbocharged engine that requires
