@@ -10,16 +10,16 @@ See: .planning/PROJECT.md (updated 2025-02-05)
 ## Current Position
 
 Phase: 3 of 8 (FAQ Display) — IN PROGRESS
-Plan: 1 of 3 in current phase (03-03 complete)
+Plan: 2 of 3 in current phase (03-01, 03-03 complete)
 Status: Executing phase plans
-Last activity: 2026-02-10 — Completed 03-03-PLAN.md (terms page + FAQ error handling)
+Last activity: 2026-02-10 — Completed 03-01-PLAN.md (schema & navigation infrastructure)
 
 Progress: [####------] 33%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 8
+- Total plans completed: 9
 - Average duration: ~4 minutes
 - Total execution time: ~0.5 hours
 
@@ -30,10 +30,10 @@ Progress: [####------] 33%
 | 1. Foundation | 3/3 | ~13m | ~4.3m |
 | 1.1 Set Up Styling | 2/2 | ~9m | ~4.5m |
 | 2. Content System | 2/2 | ~7m | ~3.5m |
-| 3. FAQ Display | 1/3 | ~4m | ~4m |
+| 3. FAQ Display | 2/3 | ~8m | ~4m |
 
 **Recent Trend:**
-- Last 5 plans: 1.1-02 (~6m), 02-01 (~4m), 02-02 (~3m), 03-03 (~4m)
+- Last 5 plans: 02-01 (~4m), 02-02 (~3m), 03-03 (~4m), 03-01 (~4m)
 - Trend: Stable
 
 *Updated after each plan completion*
@@ -74,6 +74,10 @@ Recent decisions affecting current work:
 - [02-02]: Intl.DateTimeFormat for locale-aware date display (no external date library needed)
 - [03-03]: Terms page as Vue SFC (not Nuxt Content markdown) for static legal text that rarely changes
 - [03-03]: Robust URL detection in error.vue using URL constructor with fallback for bare paths
+- [03-01]: Multi-answer schema uses optional z.array for backward compatibility with single-answer FAQs
+- [03-01]: ThemeToggle placed in navbar-brand (not navbar-menu) for all-viewport visibility
+- [03-01]: FAQs link in navbar-end (collapses into hamburger on mobile)
+- [03-01]: Placeholder /faqs page added to unblock SSG prerender (Plan 02 replaces it)
 
 ### Pending Todos
 
@@ -98,8 +102,8 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-10
-Stopped at: Completed 03-03-PLAN.md (terms page + FAQ error handling)
-Resume file: .planning/phases/03-faq-display/03-03-SUMMARY.md
+Stopped at: Completed 03-01-PLAN.md (schema & navigation infrastructure)
+Resume file: .planning/phases/03-faq-display/03-01-SUMMARY.md
 
 ---
 *State initialized: 2025-02-05*
