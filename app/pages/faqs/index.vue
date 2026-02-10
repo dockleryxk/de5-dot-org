@@ -47,7 +47,7 @@ useSeoMeta({
 </script>
 
 <style scoped lang="scss">
-@use '~/assets/scss/variables' as vars;
+// Variables available via `vars.*` (auto-injected by nuxt.config.ts additionalData)
 
 // FAQ list item -- block link with subtle hover highlight and bottom border
 .faq-list-item {
