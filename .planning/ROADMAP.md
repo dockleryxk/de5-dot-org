@@ -15,7 +15,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 1: Foundation** - Open-source project setup with Nuxt Content v3
 - [x] **Phase 1.1: Set Up Styling** - (INSERTED) Styling infrastructure
 - [x] **Phase 2: Content System** - Content collections, schema, and manual curation workflow
-- [ ] **Phase 3: FAQ Display** - Mobile-responsive FAQ pages with source attribution
+- [x] **Phase 3: FAQ Display** - Mobile-responsive FAQ pages with source attribution
 - [ ] **Phase 4: Search** - Client-side full-text search with MiniSearch
 - [ ] **Phase 5: Browse & Navigation** - Category browsing and shareable permalinks
 - [ ] **Phase 6: Analytics** - Privacy-friendly traffic analytics and search query logging
@@ -86,9 +86,9 @@ Plans:
 **Plans**: 3 plans
 
 Plans:
-- [ ] 03-01-PLAN.md — Schema evolution (multi-answer), navbar extraction, homepage CTA
-- [ ] 03-02-PLAN.md — FAQ listing page and detail page overhaul (breadcrumbs, multi-answer, SEO)
-- [ ] 03-03-PLAN.md — Terms/disclaimer page and FAQ-specific 404 handling
+- [x] 03-01-PLAN.md — Schema evolution (multi-answer), navbar extraction, homepage CTA
+- [x] 03-02-PLAN.md — FAQ listing page and detail page overhaul (breadcrumbs, multi-answer, SEO)
+- [x] 03-03-PLAN.md — Terms/disclaimer page and FAQ-specific 404 handling
 
 ### Phase 4: Search
 **Goal**: Users can find FAQs and content using fast client-side search
@@ -174,7 +174,7 @@ Phases execute in numeric order: 1 -> 1.1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 | 1. Foundation | 3/3 | Complete | 2026-02-05 |
 | 1.1 Set Up Styling | 2/2 | Complete | 2026-02-09 |
 | 2. Content System | 2/2 | Complete | 2026-02-09 |
-| 3. FAQ Display | 0/3 | Not started | - |
+| 3. FAQ Display | 3/3 | Complete | 2026-02-10 |
 | 4. Search | 0/TBD | Not started | - |
 | 5. Browse & Navigation | 0/TBD | Not started | - |
 | 6. Analytics | 0/TBD | Not started | - |
@@ -183,4 +183,4 @@ Phases execute in numeric order: 1 -> 1.1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8
 
 ---
 *Roadmap created: 2025-02-05*
-*Last updated: 2026-02-09*
+*Last updated: 2026-02-10*
