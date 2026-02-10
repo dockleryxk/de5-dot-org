@@ -26,6 +26,7 @@ These are hard-won lessons. Do not ignore them.
 - **eslint** must be a direct devDependency (peer dep of @nuxt/eslint). Do not remove it even though @nuxt/eslint exists.
 - **Pug support:** Only the `pug` package is needed (no pug-plain-loader -- Vite handles it natively).
 - **Frontmatter dates must include time component:** Date-only strings (e.g., `'2026-02-09'`) are parsed as UTC midnight by `new Date()`, displaying a day behind in US timezones. Always include a time component (e.g., `'2025-08-15T15:45:00'`). Use best-effort actual times; approximate is fine.
+- **SCSS variables auto-injected:** `nuxt.config.ts` vite.css.preprocessorOptions.scss.additionalData injects `@use "~/assets/scss/variables" as vars;` into every Vue SFC `<style>` block. Do NOT add `@use` for variables in component styles -- it causes a Sass "duplicate module namespace" build error.
 
 ## Code Style
 
