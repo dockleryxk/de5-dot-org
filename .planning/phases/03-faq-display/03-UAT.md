@@ -1,5 +1,5 @@
 ---
-status: complete
+status: diagnosed
 phase: 03-faq-display
 source: [03-01-SUMMARY.md, 03-02-SUMMARY.md, 03-03-SUMMARY.md]
 started: 2026-02-10T17:00:00Z
@@ -79,9 +79,12 @@ skipped: 0
   reason: "User reported: it is functionally correct but doesn't match the style of answers that have one attribution source"
   severity: cosmetic
   test: 3
-  root_cause: ""
-  artifacts: []
-  missing: []
+  root_cause: "Multi-answer sources render as plain p.is-size-7 elements without a .box wrapper, while single-answer uses .box for visual containment"
+  artifacts:
+    - path: "app/pages/faqs/[...slug].vue"
+      issue: "Multi-answer template branch (line 35-45) lacks .box wrapper that single-answer branch (line 48) has"
+  missing:
+    - "Wrap multi-answer sources in .box to match single-answer styling"
   debug_session: ""
 
 - truth: "FAQ-specific 404 buttons have adequate spacing/padding"
@@ -89,7 +92,10 @@ skipped: 0
   reason: "User reported: It's all there, but there could be more padding around the button container"
   severity: cosmetic
   test: 10
-  root_cause: ""
-  artifacts: []
-  missing: []
+  root_cause: "Button container p tag at line 11 in error.vue has no spacing class — buttons sit too close to the description text above"
+  artifacts:
+    - path: "app/error.vue"
+      issue: "p tag wrapping buttons (line 11) has no margin-top class"
+  missing:
+    - "Add mt-5 class to button container paragraph for visual breathing room"
   debug_session: ""

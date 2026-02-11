@@ -7,7 +7,7 @@ NuxtLayout(name="minimal")
       template(v-if="error?.statusCode === 404 && isFaqRoute")
         h1 FAQ Not Found
         p This FAQ doesn't exist or may have been removed.
-        p
+        p.mt-5
           NuxtLink.button.is-primary.mr-2(to="/faqs") Browse All FAQs
           NuxtLink.button.is-light(to="/") Go Home
       //- General 404: standard page not found message

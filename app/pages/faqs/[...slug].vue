@@ -33,16 +33,17 @@ section.section(v-if="faq")
     //- Source attribution -- multi-answer or legacy single-answer fallback
     .answer-sources.mt-5
       template(v-if="faq.answers && faq.answers.length")
-        //- Multi-answer: per-answer source attribution with dividers
-        .answer-source(v-for="(answer, idx) in faq.answers" :key="idx")
-          hr.my-3(v-if="idx > 0")
-          p.is-size-7.has-text-grey
-            LucideExternalLink(:size="14" style="vertical-align: middle;")
-            |  From
-            = ' '
-            a(:href="answer.sourceUrl" target="_blank" rel="noopener noreferrer")
-              | @{{ answer.sourceAuthor }}
-            |  on IntegraForums &middot; {{ formatDate(answer.sourceDate) }}
+        //- Multi-answer: per-answer source attribution with dividers (box matches single-answer style)
+        .box
+          .answer-source(v-for="(answer, idx) in faq.answers" :key="idx")
+            hr.my-3(v-if="idx > 0")
+            p.is-size-7.has-text-grey.mb-0
+              LucideExternalLink(:size="14" style="vertical-align: middle;")
+              |  From
+              = ' '
+              a(:href="answer.sourceUrl" target="_blank" rel="noopener noreferrer")
+                | @{{ answer.sourceAuthor }}
+              |  on IntegraForums &middot; {{ formatDate(answer.sourceDate) }}
       template(v-else)
         //- Legacy single-answer source attribution (backward compatible)
         .box
